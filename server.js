@@ -9,7 +9,7 @@ var articleone = {
   title : 'Article One ',
   heading : 'Article One',
   date : 'March 11 2017',
-  content :`    <p>This is Karthik Nair and i study in DJ Sanghvi College of Enginneering.</p>
+  content :`<p>This is Karthik Nair and i study in DJ Sanghvi College of Enginneering.</p>
         
         <p>Field - Computer Science</p>
         
