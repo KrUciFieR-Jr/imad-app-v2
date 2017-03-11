@@ -5,7 +5,21 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var articles{ 
-    articleone : {
+    'articleone'= {
+    
+  title : 'Article One',
+  heading : 'Article One',
+  date : 'March 11 2017',
+  content :`<p>This is Karthik Nair and i study in DJ Sanghvi College of Enginneering.</p>
+        
+        <p>Field - Computer Science</p>
+        
+        <p>Year - 2nd Year </p>
+        
+        <p>CGPA - 8.7</p>`
+    
+},
+  'articletwo' = {
     
   title : 'Article One ',
   heading : 'Article One',
@@ -19,21 +33,7 @@ var articles{
         <p>CGPA - 8.7</p>`
     
 },
-  articletwo : {
-    
-  title : 'Article One ',
-  heading : 'Article One',
-  date : 'March 11 2017',
-  content :`<p>This is Karthik Nair and i study in DJ Sanghvi College of Enginneering.</p>
-        
-        <p>Field - Computer Science</p>
-        
-        <p>Year - 2nd Year </p>
-        
-        <p>CGPA - 8.7</p>`
-    
-},
-  articlethree : {
+  'articlethree' = {
     
   title : 'Article One ',
   heading : 'Article One',
